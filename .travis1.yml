@@ -3,10 +3,10 @@ python:
   - "3.6"
 notifications:
   email: 
-    recepients:
-      - tidhamecha@in.ibm.com
-      on_success: always
-      on_failure: always
+    recipients:
+    - tidhamecha@in.ibm.com
+    on_success: always
+    on_failure: always
 
 before_install:
   - echo -e "machine github.com\n  login $GITHUB_TOKEN" >> ~/.netrc
